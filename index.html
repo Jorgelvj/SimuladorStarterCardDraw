@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>% Starter Card %</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Calculadora de Probabilidade Hipergeométrica</h1>
+        <h2>Simulador de Draw em início de partida</h2>
+    </header>
+
+<section id="hey">
+    <div id="dados">
+       <p>Número de cards no Deck <input class="teste" type="number" name="qtdCartasDeck" id="cardsDeck"></p>
+       <p>Número de Starters <input class="teste" type="number" name="CartasIniciadoras" id="cardsIniciadores"></p>
+       <input type="button" value="Calcular" onclick="contagem()">
+    </div>
+
+    <div>
+
+    <h3 id="turno1">Aguardando</h3>
+    <p id="res_n5_i0"></p>
+    <p id="res_n5_i1"></p>
+    <p id="res_n5_i2"></p>
+    <p id="res_n5_i3"></p>
+
+    </div>
+    
+    <div>
+    <h3 id="turno2"></h3>
+    <p id="res_n6_i0"></p>
+    <p id="res_n6_i1"></p>
+    <p id="res_n6_i2"></p>
+    <p id="res_n6_i3"></p>
+
+    </div>
+    
+</section>
+<hr>
+<footer>
+    <p id="footer">&copy; JV</p>
+</footer>
+
+
+<script src="Ygo.js"></script>
+</body>
+</html>
